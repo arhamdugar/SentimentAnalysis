@@ -20,5 +20,6 @@ aiohttp==3.10.5
     • Keep it updated by running pip freeze > requirements.txt after installing new libraries. (so we install new libraries via terminal and just run this command, it will update the requirements file, so another day another setup can be done easily)
     6.  
     
-    
+feb 13: I have downloaded the different files to run roberta locally, the vader and text-blob work directly but the roberta needs to be on local system incase of ssl error. The files I have downloaded in Roberta(cardiffnlp/twitter-roberta-base-sentiment-latest) are 
+config.json, pytorch_model.bin, vocab.json, merges.txt, special_tokens_map.json
 
